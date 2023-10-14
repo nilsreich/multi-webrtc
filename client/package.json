@@ -21,6 +21,7 @@
     "@radix-ui/react-toggle": "^1.0.3",
     "@radix-ui/react-tooltip": "^1.0.7",
     "class-variance-authority": "^0.7.0",
+    "client-only": "^0.0.1",
     "clsx": "^2.0.0",
     "jotai": "^2.4.3",
     "lucide-react": "^0.286.0",

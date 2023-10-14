@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/theme-provider";
+import { Providers } from "@/components/providers";
 import { Toaster } from "@/components/ui/toaster";
 import { i18n } from "@/lib/i18n-config";
 
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang} suppressHydrationWarning>
       <body>
-        <ThemeProvider
+        <Providers
           attribute="class"
           defaultTheme="system"
           enableSystem
@@ -31,7 +31,7 @@ export default function RootLayout({
         >
           {children}
           <Toaster />
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   );
